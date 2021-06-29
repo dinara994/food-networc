@@ -155,8 +155,14 @@ a {
   border-radius: 50%;
   background: #c2cd91;
   display: inline-block;
+  position: relative;
 }
 .features__svg {
+  z-index: 5555;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
   max-width: 44px;
   display: inline-block;
   align-items: center;
@@ -169,7 +175,7 @@ a {
   margin: 33px 0 15px;
 }
 .features__desc {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   text-align: center;
   color: #150C01;
