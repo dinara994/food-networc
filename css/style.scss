@@ -97,7 +97,6 @@ position: relative;
    max-width: 100%;
    top: -36px;
    right: 81px;
-   position: absolute;
  }
 
 }
@@ -133,8 +132,8 @@ position: relative;
 /*============FEATURES=============*/
 .features{
   text-align: center;
-  padding: 223px 0 108px;
-  &__features__container{
+  padding-bottom: 108px;
+  &__container{
     max-width: 1080px;
   }
   &__orange{
