@@ -136,11 +136,7 @@ position: relative;
   &__container{
     max-width: 1080px;
   }
-  &__orange{
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #DC780B;
-  }
+
   &__title{
     font-weight: 700;
     font-size: 31.25px;
@@ -187,7 +183,53 @@ position: relative;
   &__yellow{
     background: #dec7ad;
   }
+
 }
+.orange{
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+}
+
+/*======================ABOUT======================*/
+.about {
+  &__img {
+    background: url("../img/about-f.png") no-repeat center/cover;
+    max-width: 787px;
+    height: 586px;
+    border-radius: 30px;
+  }
+  &__orange {
+    margin: 108px 0 10px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 41px;
+    color: #150C01;
+  }
+  &__desc{
+    font-weight: 400;
+    line-height: 24px;
+    color: #150C01;
+    opacity: 0.7;
+    margin: 30px 0 29px;
+  }
+  &__btn {
+    width: 142px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+}
+
+
+
+
 
 
 

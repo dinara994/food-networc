@@ -136,11 +136,6 @@ a {
 .features__container {
   max-width: 1080px;
 }
-.features__orange {
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #DC780B;
-}
 .features__title {
   font-weight: 700;
   font-size: 31.25px;
@@ -186,6 +181,44 @@ a {
 }
 .features__yellow {
   background: #dec7ad;
+}
+
+.orange {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+}
+
+/*======================ABOUT======================*/
+.about__img {
+  background: url("../img/about-f.png") no-repeat center/cover;
+  max-width: 787px;
+  height: 586px;
+  border-radius: 30px;
+}
+.about__orange {
+  margin: 108px 0 10px;
+}
+.about__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 41px;
+  color: #150C01;
+}
+.about__desc {
+  font-weight: 400;
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+  margin: 30px 0 29px;
+}
+.about__btn {
+  width: 142px;
+  height: 42px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 /*# sourceMappingURL=style.css.map */
