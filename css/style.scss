@@ -193,6 +193,7 @@ position: relative;
 
 /*======================ABOUT======================*/
 .about {
+
   &__img {
     background: url("../img/about-f.png") no-repeat center/cover;
     max-width: 787px;
@@ -226,6 +227,9 @@ position: relative;
     padding: 11px 30px;
   }
 
+}
+.box__two{
+  margin-left: 50px;
 }
 
 
