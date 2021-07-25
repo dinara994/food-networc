@@ -249,6 +249,11 @@ position: relative;
   box-sizing: border-box;
   border-radius: 75px 10px 75px 10px;
 }
+  &__star {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
   &__btn {
     width: 36px;
     height: 34px;
@@ -257,7 +262,11 @@ position: relative;
   }
 
 }
-
+.info{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
 
 
 
