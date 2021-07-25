@@ -226,4 +226,14 @@ a {
   margin-left: 101px;
 }
 
+/*=========================================*/
+.menu__img {
+  background: url("../img/menu1.png") no-repeat center/cover;
+  width: 458px;
+  height: 306px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 75px 10px 10px 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

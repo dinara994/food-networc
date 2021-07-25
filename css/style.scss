@@ -232,8 +232,21 @@ position: relative;
   margin-left: 101px;
 }
 
+/*=========================================*/
+.menu {
 
 
+&__img {
+  background: url("../img/menu1.png") no-repeat center/cover;
+
+  width: 458px;
+  height: 306px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 75px 10px 10px 10px;
+}
+
+}
 
 
 
