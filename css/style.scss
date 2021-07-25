@@ -239,7 +239,8 @@ position: relative;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  border-radius: 75px 10px 10px 10px;
+  width: 360px;
+  height: 446px;
 }
 &__img {
   background: url("../img/menu1.png") no-repeat center/cover;
@@ -248,6 +249,12 @@ position: relative;
   box-sizing: border-box;
   border-radius: 75px 10px 75px 10px;
 }
+  &__btn {
+    width: 36px;
+    height: 34px;
+    padding: 11px 12px;
+    text-align: center;
+  }
 
 }
 
