@@ -243,6 +243,12 @@ a {
   box-sizing: border-box;
   border-radius: 75px 10px 75px 10px;
 }
+.menu__star {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 20px 0 25px;
+}
 .menu__btn {
   width: 36px;
   height: 34px;
